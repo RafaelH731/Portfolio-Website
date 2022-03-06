@@ -4,9 +4,12 @@
     text-decoration: none;
 }
 body{
-    background-color: #f3f3f3;
+    background-color: #f3f3f3ee;
 }
-
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
 .wrapper {
     width: 100%;
 
@@ -19,14 +22,19 @@ body{
 .main-header, .main-footer {
     display: flex;
     justify-content: space-between;
-    padding: 50px;
-    background: rgb(102, 102, 124);
-    color: #fff;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: large;
+    padding: 30px;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
 }
 
-.main-header h1 {
+a {
+    display: inline-block;
+    margin: 20px;
+    font-size: larger;
+}
+
+h1 {
     padding: 20px 10px 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
@@ -34,38 +42,34 @@ body{
     line-height: 45px;
     display: flex;
 }
-.main-header ul {
-    padding: 10px 50px 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    color: #111;
-    line-height: 25px;
 
-}
-.small-header {
-    font-size: 45px;
-    padding-bottom: 20px;
-    padding-left: 15px;
-}
-.bio {
-    font-size: 35px;
+.bio, .info, .interests {
+    font-size: 25px;
     padding-left: 10px;
+
 }
-.info {
-    font-size: 25px;
-    padding-left: 8px;
-    padding-top: 5px;
-}
-.interests {
-    font-size: 20px;
-    padding-left: 5px;
-}
+
 #projects {
-    font-size: 35px;
+    font-size: 20px;
     padding-left: 35px;
+    border: 3px solid black;
 
 }
+.card {
+    display: block;
+    display: flex;
+    border: 3px solid black;
+    justify-content: left;
+}
+.inside-card {
+    display: inline-block;
+    border: 5px solid black;
+    font-size: 30px;
+}
 
+.project-imgs {
+   border: 2px solid #4c7cff; 
+}
 @media only screen and (min-width:768px) {
     .img-banner {
         display: block;

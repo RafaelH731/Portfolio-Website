@@ -7,30 +7,23 @@
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-   <!-- <img class="img-banner" src="img/bannertemplate.jpg" alt="website banner"> -->
-
-    <header class="main-header">
-        <h1>Rafael Herrera</h1>
-        <img src="img/profile-pic.webp" alt="rafael's picture">
-        <nav>
-            <ul>
-                <li>
-                    <a href="#Bio">Bio</a>
-                </li>
-                <li>
-                    <a href="#Work">Work</a>
-                </li>
-                <li>
-                    <a href="#Contact-Information">Contact Information</a>
-                </li>
-            </ul>
+    <header style="background-image: url('img/milpa.jpg');" alt="background image" class="main-header">
+        
+        <h1><img src="img/profile-pic.webp" width="200" height="200" alt="rafael's picture">Rafael Herrera</h1>
+        
+        <nav> 
+             <a href="#Bio">Bio</a>
+               
+             <a href="#Work">Work</a>
+               
+             <a href="#Contact-Information">Contact Information</a>
+        
         </nav>
     </header>
 
-    <section>
-    <h2 class="small-header">Welcome to my Website</h2>
+    <section class="card">
 
-    <p class="bio" id="Bio">About Me</p>
+            <h3 class="inside-card" id="Bio">About Me</h3>
 
     <p class="info">My name is Rafael Herrera and I am programmer who has recently started a
     coding bootcamp through the University of Washington. I have recently been working with a
@@ -39,8 +32,8 @@
     </p>
     </section>
     
-    <section>
-        <h2 class="small-header">My Interests</h2>
+    <section class="card">
+        <h3 class="inside-card">My Interests</h3>
    <ul class="interests">
         <li>- Spend time with my family</li>
         <li>- Play Video Games</li>
@@ -48,23 +41,25 @@
     </ul>
     </section>
 
-    <h1 class="small-header" id="Work">Projects</h1>
-    <section>
-
-        <h2 id="projects">Placeholder for Project 1
-            <a href="https://www.google.com/"><img src="img/placeholder-image.jpg" alt="placeholder">
-        </h2>
-        <h3 id="projects">Placeholder for Project 2
-            <a href="https://www.w3schools.com/"><img src="img/placeholder-image.jpg" width="300" height="300" alt="placeholder">
-        </h3>
-        <h4 id="projects">Placeholder for Project 3
-            <a href="https://www.reddit.com/"><img src="img/placeholder-image.jpg" width="200" height="200" alt="placeholder">
-        </h4>
-
+    <section class="card">
+    <h3 class="inside-card"  id="Work">Projects</h3>
+    
+        <div class="project-imgs">
+            <h2 id="projects">Placeholder for Project 1
+                <a href="https://www.google.com/"><img src="img/placeholder-image.jpg" width="400" height="400" alt="placeholder">
+            </h2>
+            <h2 id="projects">Placeholder for Project 2
+                 <a href="https://www.w3schools.com/"><img src="img/placeholder-image.jpg" width="300" height="300" alt="placeholder">
+             </h2>
+             <h2 id="projects">Placeholder for Project 3
+                 <a href="https://www.reddit.com/"><img src="img/placeholder-image.jpg" width="200" height="200" alt="placeholder">
+             </h2>
+         </div>    
     </section>
+
     <footer class="main-footer" id="Contact-Information">
-        <h2>Contact Information</h2>
-        <h3>Email: RAFAELHERRERA731@GMAIL</h3>
+        <h2>Contact Information: </h2>
+        <h3>Email: RAFAELHERRERA731@GMAIL </h3>
         
     </footer>
 </body>
