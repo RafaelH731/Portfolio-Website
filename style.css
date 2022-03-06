@@ -19,6 +19,21 @@ main {
 
 }
 
+#firstProjectImage{
+    height:55%;
+    width:55%;
+}
+
+#secondProjectImage{
+    height:45%;
+    width:45%;
+}
+
+#thirdProjectImage{
+    height:35%;
+    width:35%;
+}
+
 .main-header, .main-footer {
     display: flex;
     justify-content: space-between;
@@ -52,7 +67,9 @@ h1 {
 #projects {
     font-size: 20px;
     padding-left: 35px;
-    border: 3px solid black;
+    border-width: 0 5px 5px 0;
+    border-style: solid;
+    border-color: black
 
 }
 .card {
@@ -63,13 +80,12 @@ h1 {
 }
 .inside-card {
     display: inline-block;
-    border: 5px solid black;
     font-size: 30px;
+    border-right: 5px solid black;
 }
 
-.project-imgs {
-   border: 2px solid #4c7cff; 
-}
+ 
+
 @media only screen and (min-width:768px) {
     .img-banner {
         display: block;
