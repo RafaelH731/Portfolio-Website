@@ -10,8 +10,15 @@ On the top of the HTML page I have some disabled code because I have a banner th
 
 Updates
 Some updates made to my portfolio website is adding bootstrap to make the website more polished. Still working on the color to use because it looks plain. I added three links to deployed applications.
+
 1. ZenTen: Zenten is the first project that was a group project alongside Julia Davis, Isaac Luton, Revy Torres and myself. This application used bulma as the CSS framework and Javascript alsonside two APIs. The applicatin allows the user to select a time that they would like to relax and choose from 5 themes. It will then pull a random quote and image that will cycle after an interval time.
+![Screenshot of Application](img/zenten.png)
+[ZenTen](https://juliakhdavis.github.io/zenTen/)
 
 2. WorkDay Schedular: This application allows the user to save task in an hour slot and save onto local storage. This application uses local storage and moment.js to keep track of time of day and to save the text into a textbox. 
+![Screenshot of Application](img/day-scheduler-screenshot.png)
+[Work Day Generator](https://rafaelh731.github.io/work-day-scheduler/)
 
 3. Password Generator: This application take input from the user to create a password from the user preferences. This is my first assignment that I was able to solve problems to make the application work. It is a simple program now but it is a reminder of how far I have come with all the technologies I have been learning. 
+![Screenshot of Application](img/passwordgenerator.png)
+[Password Generator](https://rafaelh731.github.io/password-generator/)
