@@ -3,9 +3,6 @@
     padding: 0;
     text-decoration: none;
 }
-body{
-    background-color: #f3f3f3ee;
-}
 main {
     display: flex;
     flex-wrap: wrap;
